@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de [TU NOMBRE] - Especialista en Salud y Desarrollador DAM">
+    <meta name="author" content="[TU NOMBRE]">
+    <meta name="keywords" content="DAM, Sanidad, Salud Digital, Java, SQL, Desarrollo Web">
+    <title>[TU NOMBRE] | Tech & Health Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <strong>[TU NOMBRE]</strong>
+            <span class="badge">Tech & Health</span>
+        </div>
+        
+        <input type="checkbox" id="menu-check">
+        
+        <label for="menu-check" class="menu-icono">
+            <span></span><span></span><span></span>
+        </label>
+
+        <label for="menu-check" class="capa-cerrar"></label>
+
+        <nav>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#sobre-mi">Perfil</a></li>
+                <li><a href="#portafolio">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Tecnología que <span class="highlight">Cuida</span></h1>
+                <p>Estudiante de DAM con experiencia en el sector sanitario. Mi enfoque une la eficiencia del software con el compromiso del entorno clínico.</p>
+                <div class="hero-btns">
+                    <a href="#portafolio" class="btn">Ver Proyectos</a>
+                    <a href="#sobre-mi" class="btn btn-outline">Saber más</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="container">
+            <h2 class="section-title">Perfil Profesional</h2>
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71f1e3c770?auto=format&fit=crop&w=300&q=80" alt="Foto de [TU NOMBRE]">
+                </div>
+                <div class="profile-text">
+                    <h3>Compromiso y Código</h3>
+                    <p>Tras años en el <strong>sector sanitario</strong>, he decidido dar el salto al <strong>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong> para construir herramientas que realmente marquen la diferencia en el día a día de pacientes y profesionales.</p>
+                    <p>Mi trayectoria me aporta una visión única: entiendo las necesidades reales de los centros de salud y poseo la técnica para digitalizarlas.</p>
+                    <div class="skills-tags">
+                        <span>Java</span> <span>SQL</span> <span>HTML/CSS</span> <span>UX Salud</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio" class="container bg-light">
+            <h2 class="section-title">Soluciones Desarrolladas</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Gestión Médica">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">Java / MySQL</span>
+                        <h3>MediConnect</h3>
+                        <p>Sistema de gestión de historiales clínicos con cifrado de datos para máxima seguridad.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1504813184591-01572f98c85f?auto=format&fit=crop&w=600&q=80" alt="App Android">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">Android / DAM</span>
+                        <h3>VitalLog</h3>
+                        <p>App para pacientes crónicos que sincroniza constantes vitales con su médico de referencia.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80" alt="Dashboard Tech">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">HTML / CSS Grid</span>
+                        <h3>BioDash</h3>
+                        <p>Dashboard interactivo para la visualización de analíticas y tendencias epidemiológicas.</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80" alt="Accesibilidad">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag">UX / UI</span>
+                        <h3>Acceso Salud</h3>
+                        <p>Interfaz simplificada diseñada para reducir la brecha digital en pacientes de la tercera edad.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Información Directa</h3>
+                    <p>Estoy abierto a nuevas oportunidades donde pueda aportar mi valor dual.</p>
+                    <ul class="contact-list">
+                        <li><strong>📧 Correo:</strong> <a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a></li>
+                        <li><strong>📍 Ubicación:</strong> Madrid, España (Disponibilidad Remota)</li>
+                        <li><strong>💬 Redes:</strong> LinkedIn / GitHub</li>
+                    </ul>
+                </div>
+                <form class="contact-form-compact">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <textarea rows="4" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn btn-block">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 [TU NOMBRE] | Perfil Profesional Tech & Health</p>
+        </div>
+    </footer>
+
+</body>
+</html>
