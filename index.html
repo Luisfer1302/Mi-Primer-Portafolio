@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio profesional de Luis Fernando Del Río Pérez - Especialista en Salud y Desarrollador DAM">
+    <meta name="description" content="Portafolio profesional - Especialista en Salud y Desarrollador DAM">
     <meta name="author" content="Luis Fernando Del Río Pérez">
-    <meta name="keywords" content="DAM, Sanidad, Salud Digital, Java, SQL, Desarrollo Web">
     <title>Luis Fernando Del Río Pérez | Tech & Health Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,23 +12,21 @@
 
     <header>
         <div class="logo">
-            <strong>Luis Fernando Del Río Pérez</strong>
+            <span class="dot"></span> <strong>Luis Fernando Del Río Pérez</strong>
             <span class="badge">Tech & Health</span>
         </div>
         
         <input type="checkbox" id="menu-check">
-        
         <label for="menu-check" class="menu-icono">
             <span></span><span></span><span></span>
         </label>
-
         <label for="menu-check" class="capa-cerrar"></label>
 
         <nav>
             <ul>
                 <li><a href="#hero">Inicio</a></li>
-                <li><a href="#sobre-mi">Perfil</a></li>
-                <li><a href="#portafolio">Proyectos</a></li>
+                <li><a href="#sobre-mi">Estudios</a></li>
+                <li><a href="#trayectoria">Experiencia</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -37,107 +34,168 @@
 
     <main>
         <section id="hero" class="hero">
-            <div class="hero-overlay"></div> <div class="hero-content">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="welcome-tag">Desarrollo de Software & Sanidad</span>
                 <h1>Tecnología que <span class="highlight">Cura</span></h1>
-                <p>Estudiante de DAM con trayectoria en el sector sanitario. Fusionando la programación avanzada con el compromiso del entorno clínico.</p>
+                <p>Fusionando la precisión del desarrollo de software con la experiencia clínica para crear soluciones con impacto real.</p>
                 <div class="hero-btns">
-                    <a href="#portafolio" class="btn">Explorar Proyectos</a>
-                    <a href="#sobre-mi" class="btn btn-outline">Mi Perfil</a>
+                    <a href="#trayectoria" class="btn btn-primary">Mi Experiencia</a>
+                    <a href="#sobre-mi" class="btn btn-outline">Ver Formación</a>
                 </div>
             </div>
         </section>
 
         <section id="sobre-mi" class="container">
-            <h2 class="section-title">Perfil Profesional</h2>
-            <div class="profile-container">
-                <div class="profile-image">
-                    <img src="https://images.unsplash.com/photo-1559839734-2b71f1e3c770?auto=format&fit=crop&w=300&q=80" alt="Foto de [TU NOMBRE]">
+            <h2 class="section-title">Formación Académica</h2>
+            <div class="profile-layout">
+                <div class="profile-sidebar">
+                    <div class="profile-image">
+                        <img src="images/Foto_perfil.png" alt="Foto perfil">
+                    </div>
+                    <div class="tech-stack">
+                        <div class="skill-pill"><span>💻</span> Java</div>
+                        <div class="skill-pill"><span>📊</span> SQL</div>
+                        <div class="skill-pill"><span>🌐</span> HTML/CSS</div>
+                        <div class="skill-pill"><span>🏥</span> Python</div>
+                    </div>
                 </div>
-                <div class="profile-text">
-                    <h3>Compromiso y Código</h3>
-                    <p>Tras años en el <strong>sector sanitario</strong>, he decidido dar el salto al <strong>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong> para construir herramientas que realmente marquen la diferencia en el día a día de pacientes y profesionales.</p>
-                    <p>Entiendo las necesidades reales de los centros de salud y poseo la técnica para digitalizarlas de forma segura y eficiente.</p>
-                    <div class="skills-tags">
-                        <span>Java</span> <span>SQL</span> <span>HTML/CSS</span> <span>UX Salud</span>
+                <div class="profile-info">
+                    <h3 class="info-subtitle">Estudios Realizados</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Grado Superior en DAM</h4>
+                                <span class="timeline-date">Actualidad | ThePower</span>
+                                <p>Actualmente estoy aprendiendo a construir software desde cero, enfocándome en lenguajes como Java y SQL. Mi objetivo es unir todo mi bagaje sanitario con la programación para crear herramientas tecnológicas que sean útiles y fáciles de usar.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Grado Superior en Laboratorio Clínico y Biomédico</h4>
+                                <span class="timeline-date">2022-2024 | Metrodora Opesa</span>
+                                <p>Aprendí a manejar datos biológicos con máxima precisión y a seguir metodologías de trabajo muy estrictas. Me dio una base mental muy organizada para analizar información y resolver problemas paso a paso.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Grado Medio En Cuidados Auxiliares de Enfermería</h4>
+                                <span class="timeline-date">2020-2022 | IES Moratalaz</span>
+                                <p>Estos estudios me dieron la visión real del sector salud y el contacto directo con las necesidades del paciente. Gracias a esto, entiendo perfectamente el entorno para el que ahora desarrollo aplicaciones.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Grado Superior en Aanatomía Patológica y Citodiagnóstico</h4>
+                                <span class="timeline-date">2018-2020 | Metrodora Opesa</span>
+                                <p>Aquí desarrollé una gran capacidad visual y de detalle para identificar patrones y anomalías. Me enseñó a ser muy meticuloso y a mantener la concentración en tareas que requieren mucha lógica y orden.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-bio">
+                        <p>Mi formación combina el rigor tecnológico con la sensibilidad humana del sector sanitario.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="portafolio" class="container bg-light">
-            <h2 class="section-title">Soluciones Digitales</h2>
+        <section id="trayectoria" class="container bg-light">
+            <h2 class="section-title">Experiencia Profesional</h2>
             <div class="projects-grid">
                 <article class="project-card">
-                    <div class="img-container">
-                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Gestión Médica">
+                    <div class="card-img">
+                        <img src="images/enfermeria.jpg" alt="Auxiliar de Enfermería">
                     </div>
-                    <div class="card-body">
-                        <span class="tag">Java / MySQL</span>
-                        <h3>MediConnect</h3>
-                        <p>Software para la trazabilidad de medicación y gestión de historiales clínicos con cifrado de datos.</p>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="img-container">
-                        <img src="https://images.unsplash.com/photo-1504813184591-01572f98c85f?auto=format&fit=crop&w=600&q=80" alt="App Android">
-                    </div>
-                    <div class="card-body">
-                        <span class="tag">Android / DAM</span>
-                        <h3>VitalLog</h3>
-                        <p>App para pacientes crónicos que sincroniza constantes vitales con su médico en tiempo real.</p>
+                    <div class="card-content">
+                        <span class="card-tag">Sector Sanitario</span>
+                        <h3>Auxiliar de Enfermería</h3>
+                        <p>Atención directa al paciente en entornos hospitalarios. Aprendí a gestionar flujos de trabajo rápidos y a mantener la calma en situaciones críticas.</p>
                     </div>
                 </article>
-
                 <article class="project-card">
-                    <div class="img-container">
-                        <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80" alt="Dashboard Tech">
+                    <div class="card-img">
+                        <img src="images/laboratorio.jpg" alt="Laboratorio Clínico y Biomédico">
                     </div>
-                    <div class="card-body">
-                        <span class="tag">HTML / CSS Grid</span>
-                        <h3>BioDash</h3>
-                        <p>Dashboard interactivo para la visualización de analíticas y tendencias epidemiológicas.</p>
+                    <div class="card-content">
+                        <span class="card-tag">Sector Sanitario</span>
+                        <h3>Laboratorio clínico</h3>
+                        <p>Gestión y análisis de muestras biológicas bajo protocolos de seguridad. Trabajé con equipos de alta precisión asegurando la fiabilidad de los resultados diagnósticos.</p>
                     </div>
                 </article>
-
                 <article class="project-card">
-                    <div class="img-container">
-                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80" alt="Accesibilidad">
+                    <div class="card-img">
+                        <img src="images/anatomia.jpg" alt="Anatomía Patológica y Citodiagnóstico">
                     </div>
-                    <div class="card-body">
-                        <span class="tag">UX / UI</span>
-                        <h3>Acceso Salud</h3>
-                        <p>Interfaz simplificada diseñada para reducir la brecha digital en pacientes de la tercera edad.</p>
+                    <div class="card-content">
+                        <span class="card-tag">Sector Sanitario</span>
+                        <h3>Anatomía Patológica</h3>
+                        <p>Procesamiento de tejidos y realización de citologías. Mi día a día exigía una atención absoluta al detalle para la correcta identificación de patrones celulares.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="card-img">
+                        <img src="images/camarero.jpg" alt="Camarero de sala">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Restauración</span>
+                        <h3>Camarero de sala</h3>
+                        <p>Gestión de servicio al cliente en entornos de ritmo alto. Esta etapa me dio mucha agilidad mental para resolver problemas sobre la marcha y la capacidad de trabajar en equipo bajo presión.</p>
                     </div>
                 </article>
             </div>
         </section>
 
         <section id="contacto" class="container">
-            <h2 class="section-title">Contacto</h2>
+            <div class="contact-header">
+                <h2 class="section-title">Hablemos</h2>
+                <p class="contact-subtitle">¿Conectamos? Estoy disponible para charlar sobre proyectos de salud, tecnología o nuevas propuestas.</p>
+            </div>
+
             <div class="contact-wrapper">
-                <div class="contact-info">
-                    <h3>Información Directa</h3>
-                    <p>Estoy disponible para proyectos que requieran un perfil híbrido Sanitario-Tecnológico.</p>
-                    <ul class="contact-list">
-                        <li><strong>📧 Correo:</strong> <a href="mailto:luisfdrlv@gmail.com">luisfdrlv@gmail.com</a></li>
-                        <li><strong>📍 Ubicación:</strong> Madrid, España</li>
-                    </ul>
+                <div class="contact-methods-sidebar">
+                    <div class="contact-item">
+                        <span class="icon">📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:luisfdrlv@gmail.com">luisfdrlv@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item linkedin-card">
+                        <span class="icon">💼</span>
+                        <div>
+                            <strong>LinkedIn</strong>
+                            <a href="https://www.linkedin.com/in/luis-fernando-del-río-pérez-569b27211" target="_blank">Perfil LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">🔗</span>
+                        <div>
+                            <strong>Github</strong>
+                            <a href="https://github.com/Luisfer1302" target="_blank">Perfil Github</a>
+                        </div>
+                    </div>
                 </div>
-                <form class="contact-form-compact">
-                    <input type="text" placeholder="Nombre" required>
-                    <input type="email" placeholder="Correo electrónico" required>
-                    <textarea rows="4" placeholder="Mensaje" required></textarea>
-                    <button type="submit" class="btn btn-block">Enviar Mensaje</button>
-                </form>
+
+                <div class="contact-form-container">
+                    <form class="minimal-form">
+                        <div class="form-row">
+                            <input type="text" placeholder="Nombre" required>
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <textarea rows="5" placeholder="Tu mensaje..." required></textarea>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Luis Fernando Del Río Pérez | Perfil Profesional Tech & Health</p>
-        </div>
+        <p>&copy; 2025 Luis Fernando Del Río Pérez | Tech & Health Professional</p>
     </footer>
 
 </body>
